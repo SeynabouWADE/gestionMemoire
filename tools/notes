@@ -1,0 +1,4 @@
+créer une fonction recherche qui prend des mots clés et affiche les outils avec un résumé de documentation
+
+toAssArray($data, $keys = []) : Transforme une tableau (de dimension 1), un objet ou un tableau d'objet en un talbeau associatif ou en un talbeau de talbeau associatif.
+...

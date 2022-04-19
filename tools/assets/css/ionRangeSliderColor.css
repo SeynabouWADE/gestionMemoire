@@ -1,0 +1,326 @@
+.irs--flat .irs-bar {
+    background-color: #ed5565;
+}
+
+.irs--flat .irs-shadow {
+    background-color: #e1e4e9;
+}
+
+.irs--flat .irs-handle>i:first-child {
+    background-color: #da4453;
+}
+
+.irs--flat .irs-handle.state_hover>i:first-child,
+.irs--flat .irs-handle:hover>i:first-child {
+    background-color: #a43540;
+}
+
+.irs--flat .irs-min,
+.irs--flat .irs-max {
+    background-color: #e1e4e9;
+}
+
+.irs--flat .irs-from,
+.irs--flat .irs-to,
+.irs--flat .irs-single {
+    background-color: #ed5565;
+}
+
+.irs--flat .irs-from:before,
+.irs--flat .irs-to:before,
+.irs--flat .irs-single:before {
+    border-top-color: #ed5565;
+}
+
+.irs--flat .irs-grid-pol {
+    background-color: #e1e4e9;
+}
+
+.irs--flat .irs-grid-text {
+    color: #999;
+}
+
+.irs--big .irs-line {
+    background-color: white;
+    background: linear-gradient(to bottom, #ddd -50%, white 150%);
+    border: 1px solid #ccc;
+}
+
+.irs--big .irs-bar {
+    background-color: #92bce0;
+    border: 1px solid #428bca;
+    background: linear-gradient(to bottom, #ffffff 0%, #428bca 30%, #b9d4ec 100%);
+    box-shadow: inset 0 0 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+.irs--big .irs-shadow {
+    background-color: rgba(66, 139, 202, 0.5);
+}
+
+.irs--big .irs-handle {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: #cbcfd5;
+    background: linear-gradient(to bottom, white 0%, #B4B9BE 30%, white 100%);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2), inset 0 0 3px 1px white;
+}
+
+.irs--big .irs-handle.state_hover,
+.irs--big .irs-handle:hover {
+    border-color: rgba(0, 0, 0, 0.45);
+    background-color: #939ba7;
+    background: linear-gradient(to bottom, white 0%, #919BA5 30%, white 100%);
+}
+
+.irs--big .irs-min,
+.irs--big .irs-max {
+    background-color: #9f9f9f;
+    border-radius: 3px;
+}
+
+.irs--big .irs-from,
+.irs--big .irs-to,
+.irs--big .irs-single {
+    background-color: #428bca;
+    background: linear-gradient(to bottom, #428bca 0%, #3071a9 100%);
+    border-radius: 3px;
+}
+
+.irs--big .irs-grid-pol {
+    background-color: #428bca;
+}
+
+.irs--big .irs-grid-text {
+    color: #428bca;
+}
+
+.irs--modern .irs-line {
+    background-color: #d1d6e0;
+    background: linear-gradient(to bottom, #e0e4ea 0%, #d1d6e0 100%);
+    border: 1px solid #a3adc1;
+}
+
+.irs--modern .irs-bar {
+    background: #20b426;
+    background: linear-gradient(to bottom, #20b426 0%, #18891d 100%);
+}
+
+.irs--modern .irs-shadow {
+    background-color: rgba(209, 214, 224, 0.5);
+}
+
+.irs--modern .irs-handle {
+    border: 1px solid #a3adc1;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.irs--modern .irs-handle>i:nth-child(1) {
+    border: 1px solid #a3adc1;
+    background: white;
+}
+
+.irs--modern .irs-handle>i:nth-child(2) {
+    background: #e9e6e6;
+    background: linear-gradient(to bottom, white 0%, #e9e6e6 100%);
+}
+
+.irs--modern .irs-handle>i:nth-child(3) {
+    border-left: 1px solid #a3adc1;
+    border-right: 1px solid #a3adc1;
+}
+
+.irs--modern .irs-handle.state_hover,
+.irs--modern .irs-handle:hover {
+    border-color: #7685a2;
+    background: #c3c7cd;
+    background: linear-gradient(to bottom, #ffffff 0%, #919ba5 30%, #ffffff 100%);
+}
+
+.irs--modern .irs-handle.state_hover>i:nth-child(1),
+.irs--modern .irs-handle:hover>i:nth-child(1) {
+    border-color: #7685a2;
+}
+
+.irs--modern .irs-handle.state_hover>i:nth-child(3),
+.irs--modern .irs-handle:hover>i:nth-child(3) {
+    border-color: #48536a;
+}
+
+.irs--modern .irs-min,
+.irs--modern .irs-max {
+    color: white;
+    background-color: #d1d6e0;
+}
+
+.irs--modern .irs-from,
+.irs--modern .irs-to,
+.irs--modern .irs-single {
+    background-color: #20b426;
+    color: white;
+}
+
+.irs--modern .irs-from:before,
+.irs--modern .irs-to:before,
+.irs--modern .irs-single:before {
+    border-top-color: #20b426;
+}
+
+.irs--modern .irs-grid-pol {
+    background-color: #dedede;
+}
+
+.irs--modern .irs-grid-text {
+    color: silver;
+}
+
+.irs--sharp .irs-line {
+    background-color: black;
+    border-radius: 2px;
+}
+
+.irs--sharp .irs-bar {
+    background-color: #ee22fa;
+}
+
+.irs--sharp .irs-shadow {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.irs--sharp .irs-handle {
+    background-color: #a804b2;
+}
+
+.irs--sharp .irs-handle>i:first-child {
+    border-top-color: #a804b2;
+}
+
+.irs--sharp .irs-handle.state_hover,
+.irs--sharp .irs-handle:hover {
+    background-color: black;
+}
+
+.irs--sharp .irs-handle.state_hover>i:first-child,
+.irs--sharp .irs-handle:hover>i:first-child {
+    border-top-color: black;
+}
+
+.irs--sharp .irs-min,
+.irs--sharp .irs-max {
+    background-color: #a804b2;
+}
+
+.irs--sharp .irs-from,
+.irs--sharp .irs-to,
+.irs--sharp .irs-single {
+    background-color: #a804b2;
+    color: white;
+}
+
+.irs--sharp .irs-from:before,
+.irs--sharp .irs-to:before,
+.irs--sharp .irs-single:before {
+    border-top-color: #a804b2;
+}
+
+.irs--sharp .irs-grid-pol {
+    background-color: #dedede;
+}
+
+.irs--sharp .irs-grid-text {
+    color: silver;
+}
+
+.irs--round .irs-line {
+    background-color: #dee4ec;
+}
+
+.irs--round .irs-bar {
+    background-color: #50ac55/*#006cfa #9c27b0 pamboup  */
+    ;
+}
+
+.irs--round .irs-shadow {
+    background-color: rgba(222, 228, 236, 0.5);
+}
+
+.irs--round .irs-handle {
+    border: 4px solid #50ac55/*#006cfa #9c27b0 pamboup  */
+    ;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 255, 0.3);
+}
+
+.irs--round .irs-handle.state_hover,
+.irs--round .irs-handle:hover {
+    background-color: #f0f6ff;
+}
+
+.irs--round .irs-min,
+.irs--round .irs-max {
+    color: #333;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.irs--round .irs-from,
+.irs--round .irs-to,
+.irs--round .irs-single {
+    background-color: #50ac55/*#006cfa #9c27b0 pamboup  */
+    ;
+    color: white;
+}
+
+.irs--round .irs-from:before,
+.irs--round .irs-to:before,
+.irs--round .irs-single:before {
+    border-top-color: #50ac55/*#006cfa #9c27b0 pamboup  */
+    ;
+}
+
+.irs--round .irs-grid-pol {
+    background-color: #dedede;
+}
+
+.irs--round .irs-grid-text {
+    color: silver;
+}
+
+.irs--square .irs-line {
+    background-color: #dedede;
+}
+
+.irs--square .irs-bar {
+    background-color: black;
+}
+
+.irs--square .irs-shadow {
+    background-color: #dedede;
+}
+
+.irs--square .irs-handle {
+    border: 3px solid black;
+}
+
+.irs--square .irs-handle.state_hover,
+.irs--square .irs-handle:hover {
+    background-color: #f0f6ff;
+}
+
+.irs--square .irs-min,
+.irs--square .irs-max {
+    color: #333;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.irs--square .irs-from,
+.irs--square .irs-to,
+.irs--square .irs-single {
+    background-color: black;
+    color: white;
+}
+
+.irs--square .irs-grid-pol {
+    background-color: #dedede;
+}
+
+.irs--square .irs-grid-text {
+    color: silver;
+}

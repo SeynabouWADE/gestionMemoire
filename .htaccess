@@ -1,0 +1,7 @@
+RewriteEngine On
+
+# deux condition nous permettant d'éviter d'aller directement sur un fichier ou un dossier
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ index.php?url=$1
